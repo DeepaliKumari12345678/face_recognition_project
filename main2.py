@@ -56,7 +56,7 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break
 
-# Release video capture, close OpenCV windows, and close CSV file
+
 video_capture.release()
 cv2.destroyAllWindows()
 f.close()
